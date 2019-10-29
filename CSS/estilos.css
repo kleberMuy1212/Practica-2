@@ -1,0 +1,427 @@
+/*
+Estilo 1
+Estilo del body con fuente linkeada del internet
+*/
+
+body{
+	 margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	 
+	
+/*
+Estilo 2
+Estilo de la cabecera de la pagina web
+*/
+	 
+}
+
+header .contenedor{
+	
+	display: flex;
+	justify-content: space-between;
+	
+	
+}
+/*
+Estilo 2
+Estilo de la cabecera de la pagina web
+*/
+header{
+	margin: 1;
+	border: 5px double aqua;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	padding: 1px;
+}
+/*
+Estilo 3 
+Estilo a la lista deshordenada
+*/
+header ul{
+	display: flex;
+}
+
+/*
+Estilo 4
+Estilo a los items de la lista
+*/
+
+header ul li{
+	list-style: none;
+	margin-right: 15px;
+}
+/*
+Estilo 5
+Estilo a los elemento a de la lista
+*/
+header a{
+	text-decoration: none;
+}
+/*
+Estilo 6
+Estilo al contenedor de los items
+*/
+.contenedor{
+	max-width: 1280px;
+	width: 90%;
+	margin: auto;
+}
+
+/*
+Estilo 7
+Estilo a la acebcera
+*/
+header{
+	background: linear-gradient(rgba(51, 236, 255,.9), rgba(51, 255, 181, .9)) ,url(../imagenes/cabecera.jpg);
+	
+	
+	height: 100%;
+	background-size: cover;
+}
+/*
+Estilo 8
+Estilo al contenedor del titulo
+*/
+
+#contenedor-titulo-flex{
+	display: flex;
+	justify-content: center;
+	margin: 18vh 0;
+	text-align: center;
+}
+
+/*
+Estilo 9
+Estilo a al titulo de la pagina
+*/
+h1{
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+}
+/*
+Estilo 9
+Estilo a al subtitulo de la pagina
+*/
+h2{
+	font-size: 20;
+	color: #fff;
+	text-align: center;
+	margin: 1;
+}
+/*
+Estilo 10
+Estilo al boton del titulo
+*/
+
+#botonT1{
+	display: inline-block;
+	font-size: 10;
+	color:#ff33e6;
+	text-align: center;
+	padding: 14px 24px;
+	width: 128px;	
+}
+
+/*
+Estilo 11
+Estilo a la barra del menu principal
+*/
+#barra-menu ul li a{
+	color: #fff;
+}
+/*
+<------------------------------------->
+*/
+
+/*
+Estilo 12
+Estilo al principal
+Estilo a todas las etiquetas h3
+*/
+
+h3{
+	text-align: center;
+	font-size: 55px;
+	font-weight: normal;
+}
+/*
+Estilo 13
+Estilo al principal
+Estilo a todas las etiquetas h3
+*/
+#inicio .contenedor-principal{
+	display: flex;
+	
+}
+
+/*
+Estilo 14
+Estilo al principal a la etiqueta del texto
+*/
+#inicio .texto{
+	width: 42%;
+	margin: 20px;
+}
+
+#boton1{
+	
+}
+/*
+Seccion servicios
+*/
+/*
+Estilo 15
+Estilo a la contenedor servicio
+*/
+
+.contenedor-servicio{
+	display: flex;
+	flex-wrap: wrap;
+	color: #fff;
+	
+}
+/*
+Estilo 15
+Estilo a las etiquetas de servicio
+*/
+
+.servicio{
+	width: 20%;
+	padding: 34px 30px 38px 30px;
+	border-radius: 10px;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	position: relative;
+}
+
+/*
+Estilo 16
+Estilo a las etiquetas h4 de servicio
+*/
+.servicio h4{
+	font-size: 30px;
+	margin: 0;
+}
+/*
+Estilo 17
+Estilo a las etiquetas p de servicio
+*/
+.servicio p{
+	margin-bottom: 20px;
+	height: 194 px;
+}
+/*
+Estilo 18
+Fondo de los componetes de servicios
+*/
+.contenedor-servicio .violeta{
+	background: linear-gradient(to top, #5055df, #6d68f3);
+	box-shadow: 0 12px 30px 0 rgba(86, 163, 222, .3);
+}
+
+.contenedor-servicio .celeste{
+	background: linear-gradient(to top, #40a8f9, #5cb8ff);
+	box-shadow: 0 12px 30px 0 rgba(86, 163, 222, .3);
+}
+
+
+/*
+Estilo 19
+Estilos a las imagenes de los componetes de las imagenes de los servicios que se ven aboslutas  no se muevan
+*/
+.ondas{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+/*
+Estilo 20
+Estilos a las imagenes para ponerlas a la derecha
+*/
+.icono{
+	float: right;
+}
+/* SECCION BLOG */
+
+
+
+
+
+
+
+
+
+
+footer {
+	background: #2F2F2F;
+	padding: 40px 0;
+	text-align: center;
+	margin-top: 40px;
+}
+
+footer .contenedor {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+footer img {
+	margin: 0 40px;
+	transform: rotate(0);
+	transition: 0.4s;
+}
+
+footer img:hover {
+	transform: rotate(360deg);
+	transition: 0.4s;
+}
+
+footer p {
+	color: #fff;
+	margin-top: 40px;
+}
+
+#whatsapp {
+	position: fixed;
+	top: 80%;
+	right: 1%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+#mis-trabajos, #sobre-mi, #por-que-trabajar, #blog, #contacto {
+	padding: 90px 0;
+}
+
+#servicios {
+	padding: 70px 0;
+}
+
+.menu-icon {
+	display: none;
+}
+
+@media (max-width: 800px) {
+
+.menu-icon {
+	display: block;
+float: right;
+width: 40px;
+height: 35px;
+margin-top: 15px;
+}
+
+header nav {
+	position: absolute;
+	top: 83px;
+	left: 0;
+	height: 268px;
+	background: #5cb8ff;
+	width: 100%;
+	display: none;
+}
+
+header nav ul {
+	flex-direction: column;
+}
+
+header nav ul li {
+	margin-bottom: 15px;
+}
+
+h1 {
+	font-size: 44px;
+}
+
+h2 {
+	font-size: 19px;
+}
+
+#sobre-mi .contenedor-sobremi {
+		flex-direction: column;
+}
+
+#sobre-mi img {
+	width: 100%;
+}
+
+#sobre-mi .texto {
+		width: 100%;
+}
+
+.contenedor-servicios {
+		flex-direction: column;
+}
+
+.servicio {
+	width: 82%;
+	padding: 34px 30px 69px 30px;
+}
+
+.icono {
+		margin-top: 23px;
+}
+
+h3 {
+	font-size: 43px;
+}
+
+.contenedor-trabajar {
+		flex-direction: column;
+}
+
+#por-que-trabajar .item {
+		width: 100%;
+}
+
+.item ul {
+		padding: 0;
+}
+
+#blog .contenedor-publicaciones {
+		flex-direction: column;
+}
+
+#blog .publicacion {
+		width: 100%;
+		margin-bottom: 40px;
+}
+
+#contacto form {
+		width: 100%;
+		flex-direction: column;
+}
+
+input[type="text"], input[type="email"] {
+		width: 100%;
+}
+
+footer img {
+		margin: 0 24px;
+}
+
+}
+
+@media (min-width: 600px) and (max-width:800px) {
+	header {
+		height: 70vh;
+	}
+
+	.servicio {
+		width: 57%;
+		padding: 34px 30px 69px 30px;
+		margin: auto;
+		margin-bottom: 45px;
+}
+
+#blog .publicacion {
+		width: 71%;
+		margin: auto;
+		margin-bottom: 40px;
+}
+
+}
